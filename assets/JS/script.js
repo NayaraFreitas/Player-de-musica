@@ -40,7 +40,8 @@ document.querySelector('.proxima').addEventListener('click', () =>{
 // função para mostra a duração da musica
 musica.addEventListener('loadeddata', duration);
 function duration(){
-    let duracaoMusica = document.querySelector('.fim');
+    const duracaoMusica = document.querySelector('.fim');
+
     duracaoMusica.textContent = segundoParaMinutos(Math.floor(musica.duration));
 }
 
@@ -85,6 +86,7 @@ function renderizarMusica(index) {
         nomeMusica.textContent = musicas[index].título;
         nomeArtista.textContent = musicas[index].artista;
         imagem.src = musicas[index].img;
-        duracaoMusica.textContent = segundoParaMinutos(Math.floor(musica.duration));
+
+        duration()
     });
 }
