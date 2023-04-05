@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Concert One', cursive; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(#000000, #250364, #000000);
+
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.container{
+    border: 9px solid #ffffff;
+    border-radius: 5px;
+    box-decoration-break: slice; -webkit-box-decoration-break: slice; 
+    box-shadow: 8px 8px 0 #ffffff81, -8px -8px 0 #ffffff81, 5px 5px 15px 0 #7700ffcc, -5px -5px 15px 0 #7700ffcc ;
+    height: 580px;
+    width: 300px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.descriçao {
+    width: 250px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.duraçao {
+    width: 250px;
+    margin-top: 25px;
+}
+
+.barra {
+    width: 250px; 
+    height: 10px;
+
+    border: 1px #eeecec solid;
+    border-radius: 5px;
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 8px;
+    width: 0% ;
+
+    background-color: #333;
+}
+
+.ponto {
+    width: 15px;
+    height: 15px;
+    background-color: #eee ;
+
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.tempo {
+    display: flex; 
+    justify-content: space-between;
+
+    width: 250px;
+    margin-top: 15px;
+}
+
+.player {
+    width: 250px;
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.play, .pause {
+    font-size: 50px;
+}
+
+.pause {
+    display: none;
+}
+
+.setas {
+    font-size: 40px;
+}
