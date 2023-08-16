@@ -16,7 +16,7 @@ O projeto player de música é um simples projeto feito com html, css e js. Dese
 ## 🔗 Link do projeto feito por mim
 https://projeto-player.netlify.app/
 
-## 🔗 Link do do Desenvolvedor
+## 🔗 Link do Desenvolvedor
 https://youtu.be/gFP7A_umApE
 
 
